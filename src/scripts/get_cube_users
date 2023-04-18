@@ -1,0 +1,2 @@
+#! /bin/bash
+AWS_PROFILE=prod aws cognito-idp list-users --user-pool eu-west-1_cXXKyet8K > data/users.json
